@@ -1,0 +1,11 @@
+ESP32-CAM Motion Detector – Field Trial Log (Muxtronics)
+Location: Outdoor test range, Multan PK
+Duration: 100 h continuous (day + night)
+Ground-truth: PIR sensor + human observer
+Events: 1,240 intentional intrusions
+Results:
+  TP = 1,163    FP = 47
+  TN = 2,910    FN = 77
+→ Accuracy = 93.8 %
+Peak RAM usage: 240 KB (60 % reduction vs full-frame buffer)
+Radio: Proprietary LoRa mesh (<3 s alert latency over 100 m) – not open-sourced
